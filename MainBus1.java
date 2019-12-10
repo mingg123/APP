@@ -156,7 +156,7 @@ public class MainBus1 extends AppCompatActivity {
     }
     public void onButton1Clicked(View v){
         Toast.makeText(this,"기사님께 전화가 연결됩니다..",Toast.LENGTH_LONG).show();
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-4711-1464"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-0000-0000"));
         startActivity(intent);
     }
     public void onButton2Clicked(View v){
